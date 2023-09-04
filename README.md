@@ -22,7 +22,7 @@ for (int i = 0; i < nums.size(); ++i) {
 ```
 
 ### 2. [两数相加](https://leetcode.cn/problems/add-two-numbers/submissions/)
-两个数相加，定义一个进位的标志，循环将list对应的为相加，注意出循环后需要处理flag
+两个数相加，定义一个进位的标志，循环将list对应的位相加，注意出循环后需要处理flag
 ```c++
 if (flag == 1) {
     ListNode* node = new ListNode();
